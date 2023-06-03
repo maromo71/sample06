@@ -25,9 +25,32 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 450px;
     height: 100px;
-    background-color: #f2f2f2;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+  }
+ 
+  .success {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .success:hover {
+    background-color: #218838;
+  }
+
+  footer {
+    background-color: #333;
+    font-size: x-small;
+    color: #fff;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }

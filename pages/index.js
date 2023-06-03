@@ -22,9 +22,11 @@ function Contador() {
             </div>
             <p></p>
             <div className="box">
-                <button onClick={adicionarContador}>Adicionar</button>
+                <button className="success" onClick={adicionarContador}>Adicionar</button>
             </div>
-
+            <footer>
+                Um contador hospedado na Vercel
+            </footer>
         </div>
     )
 }
