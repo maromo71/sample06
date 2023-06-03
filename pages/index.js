@@ -1,22 +1,30 @@
 import { useState } from "react";
-function Home(){
+
+function Home() {
+
     return <div>
-        Home
+        <div className="home">
+            Home
+        </div>
         <Contador />
     </div>
 }
 
-function Contador(){
+function Contador() {
     const [contador, setContador] = useState(1);
-    function adicionarContador(){
+    function adicionarContador() {
         setContador(contador + 1);
     }
-    return(
+    return (
         <div>
-            <div>
+            <div className="box">
                 {contador}
             </div>
-            <button onClick={adicionarContador}>Adicionar</button>
+            <p></p>
+            <div className="box">
+                <button onClick={adicionarContador}>Adicionar</button>
+            </div>
+
         </div>
     )
 }
