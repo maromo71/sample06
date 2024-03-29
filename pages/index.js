@@ -6,28 +6,24 @@ function Home() {
         <div className="home">
             Home
         </div>
-        <Contador />
+        <Counter />
     </div>
 }
 
-function Contador() {
-    const [contador, setContador] = useState(1);
-    function adicionarContador() {
-        setContador(contador + 1);
-    }
-    return (
-        <div>
-            <div className="box">
-                {contador}
-            </div>
-            <p></p>
-            <div className="box">
-                <button className="success" onClick={adicionarContador}>Adicionar</button>
-            </div>
-            <footer>
-                Um contador hospedado na Vercel
-            </footer>
-        </div>
-    )
+function Counter() {
+  const [count, setCount] = useState(1);
+
+  const incrementCount = () => setCount(count + 1);
+
+  return (
+    <div>
+      <div className="box">{count}</div>
+      <div className="box">
+        <button className="success" onClick={incrementCount}>
+          Contar
+        </button>
+      </div>
+    </div>
+  );
 }
 export default Home;

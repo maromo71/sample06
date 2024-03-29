@@ -1,7 +1,7 @@
 .home {
     background-color: #333;
     color: #fff;
-    height: 60px;
+    height: 70px;
     display: flex;
     align-items: center;
     padding: 0 20px;
@@ -11,7 +11,7 @@
     content: "\f0c9";
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
-    font-size: 20px;
+    font-size: 40px;
     margin-right: 10px;
   }
   
@@ -21,7 +21,7 @@
   }
 
   .box {
-    font-size: xx-large;
+    font-size: 80px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 450px;
     height: 100px;
@@ -35,8 +35,8 @@
     background-color: #28a745;
     color: #fff;
     border: none;
-    padding: 10px 20px;
-    font-size: 16px;
+    padding: 10px 20px 10px;
+    font-size: 32px;
     border-radius: 4px;
     cursor: pointer;
   }
